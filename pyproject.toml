@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pavlov-rcon"
+version = "0.1.0"
+authors = [{ name = "Horse1jj", email = "email@example.com" }]
+description = "A Python library for async and sync Pavlov Shack & PC RCON communication."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "asyncio",
+    "pydantic",
+    "loguru",
+    "tenacity",
+]
+
+[project.urls]
+Homepage = "https://github.com/Horse1jj/pavlov-rcon"
+Issues = "https://github.com/Horse1jj/pavlov-rcon/issues"
